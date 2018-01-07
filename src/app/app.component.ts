@@ -6,22 +6,6 @@ import { USERS } from './mock-users';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title: string = 'Blog';
-  blogShow: boolean = true;
-  usersListShow: boolean = true;
-  user = {
-    name: 'Mohammed',
-    job: {
-      title: 'full Stack Developer',
-      company: 'V-Line Group'
-    }
-  }
-  usersList = USERS;
-
-  toggleBlog() {
-    this.blogShow = !this.blogShow;
-  }
-  toggleUsers() {
-    this.usersListShow = !this.usersListShow;
-  }
+  title: string = 'CONTACT MANAGER';
+  users = USERS;
 }
