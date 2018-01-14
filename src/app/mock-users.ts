@@ -1,4 +1,6 @@
-export const USERS = [
+import { User } from './models/user';
+
+export const USERS: User[] = [
   {
     "guid": "60e58cc8-8a43-4d07-bba1-5a4c0e32a8ee",
     "isActive": true,
