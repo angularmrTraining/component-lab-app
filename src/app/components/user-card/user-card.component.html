@@ -1,7 +1,9 @@
 <div class="card m-b-md" style="width: 18rem;">
-  <img class="card-img-top" src="{{user.picture}}" alt="Card image cap" height="120px">
   <div class="card-body">
-    <h5 class="card-title">{{user.name.first}} {{user.name.last}} @ {{user.company}}</h5>
+    <h5 class="card-title">{{user.firstName}} {{user.lastName}}</h5>
+    <p>
+      {{user.bio}}
+    </p>
     <ul class="list-group list-group-flush">
       <li class="list-group-item">Balance: {{user.balance}}</li>
       <li class="list-group-item">Age: {{user.age}}</li>
