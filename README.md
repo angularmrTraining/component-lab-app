@@ -26,6 +26,27 @@ This Repository is an implementation of multiple Angular fundamentals, we expire
 * The Angular 5 routing module check ``app-routing.module.ts`` file under ``src/app`` folder
 * How to create a specific classes for your data modeling, please check ``./app/models`` folder
 * We use a powerful tool to generating mock data [https://next.json-generator.com](https://next.json-generator.com)
+* HttpClient module and Angular service, please check the ``./app/services/users.services.ts`` file
+
+## Get Start
+
+1. First, you need to get the project code, so go to your terminal and copy/past the command below: 
+
+```
+$ get clone https://github.com/angularmrTraining/component-lab-app.git
+```
+
+2. Go to project folder and install Dependencies:
+
+```
+$ cd component-lab-app
+$ npm install
+```
+3. Start Project: 
+
+```
+$ npm start 
+```
 
 
 ## Development server
